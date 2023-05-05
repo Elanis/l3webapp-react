@@ -1,3 +1,4 @@
+import Counter from '../Counter';
 import SuperListe from '../SuperListe';
 
 export default function ContenuTextuel() {
@@ -15,6 +16,7 @@ export default function ContenuTextuel() {
 				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 			</div>
 			<SuperListe content={liste} />
+			<Counter />
 		</>
 	)
 }
